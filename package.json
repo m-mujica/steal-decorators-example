@@ -1,0 +1,30 @@
+{
+  "name": "steal-decorators-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "steal-tools"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-mujica/steal-decorators-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-mujica/steal-decorators-example/issues"
+  },
+  "homepage": "https://github.com/m-mujica/steal-decorators-example#readme",
+  "devDependencies": {
+    "steal": "stealjs/steal#master",
+    "steal-tools": "^1.2.0"
+  },
+  "steal": {
+    "babelOptions": {
+      "plugins": [
+        "transform-decorators-legacy"
+      ]
+    }
+  }
+}
