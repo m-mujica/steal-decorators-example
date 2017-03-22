@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server -c-1 .",
     "build": "steal-tools"
   },
   "repository": {
@@ -17,8 +18,9 @@
   },
   "homepage": "https://github.com/m-mujica/steal-decorators-example#readme",
   "devDependencies": {
+    "http-server": "^0.9.0",
     "steal": "stealjs/steal#master",
-    "steal-tools": "^1.2.0"
+    "steal-tools": "stealjs/steal-tools#master"
   },
   "steal": {
     "babelOptions": {
